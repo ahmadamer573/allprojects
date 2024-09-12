@@ -1,0 +1,36 @@
+.circle{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid solid;
+    position: relative;
+}
+.line{
+    height: 2px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 49%;
+}
+.index-2{
+    transform: rotate(22.5deg);
+}
+.index-3{
+    transform: rotate(45deg);
+}
+.index-4{
+    transform: rotate(67.5deg);
+}
+.index-5{
+    transform: rotate(90deg);
+}
+.index-6{
+    transform: rotate(112.5deg);
+}
+.index-7{
+    transform: rotate(135deg);
+}
+.index-8{
+    transform: rotate(157.5deg);
+}

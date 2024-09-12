@@ -1,0 +1,13 @@
+.main-container{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+#loader{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 90px auto;
+    transform: rotate(48deg);
+    animation: loading_animation .8s linear(0 0%,1 100%);
+}

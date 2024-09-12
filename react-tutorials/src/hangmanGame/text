@@ -1,0 +1,61 @@
+// import React, { useState } from "react";
+// import "./App.css";
+// import HangmanDraw from "./hangmanGame/HangmanDraw";
+// import GameInfo from "./hangmanGame/GameInfo";
+// import { data } from "./data";
+// function App() {
+// const [lettersArray,setLettersArray] = useState(Array.from(data[0].letters));
+// const [lettersContainer,setLettersContainer] = useState(document.querySelector(".letters"));
+
+// lettersArray.forEach(letters =>{
+//   let span = document.createElement("span");
+
+//   let theLetter = document.createTextNode(letters);
+
+//   span.appendChild(theLetter);
+
+//   span.className = "letter-box";
+
+//   lettersContainer.appendChild(span);
+// });
+
+// const [allKeys,setAllKeys] = useState(Object.keys(data[1]));
+
+// const [randomPropNumber,setRandomPropNumber] = useState(Math.floor(Math.random()* allKeys.length));
+
+// const [randomPropName,setRandomPropName] = useState(allKeys[randomPropNumber]);
+
+// const [randomPropValue,setRandomPropValue] = useState(data[1][randomPropName]);
+
+// const [randomValueNumber,setRandomValueNumber] = useState(Math.floor(Math.random()*randomPropValue.length));
+
+// const [randomValueValue,setRandomValueValue] = useState(randomPropValue[randomValueNumber]);
+
+// document.querySelector(".game-info .category span").innerHTML = randomPropName;
+
+// const [lettersGuessContainer,setLettersGuessContainer] = useState(document.querySelector(".letters-guess"));
+
+// const [lettersAndSpace,setLettersAndSpace] = useState(Array.from(randomValueValue));
+
+// const [guessSpans,setGuessSpans] = useState(document.querySelectorAll(".letters-guess span")); 
+
+// const [wrongAttempts,setWrongAttempts] = useState(0);
+
+// const [theDraw,setTheDraw] = useState(document.querySelector(".hangman-draw"));
+//   return (
+//     <div>
+//       <div className="container">
+//         <GameInfo/>
+//         <div class="row">
+//            <HangmanDraw/>
+//           <div class="letters"></div>
+//         </div>
+//         <div class="letters-guess"></div>
+//       </div>
+//       <audio id="success" src="" preload="auto"></audio>
+//       <audio id="fail" src="" preload="auto"></audio>
+//     </div>
+//   );
+// }
+
+// export default App;
